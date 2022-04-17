@@ -130,13 +130,18 @@ body{
     padding: 7px;
     text-decoration: none;
     border-radius: 10%;
+    transition: all 1s;
 }
 
 .boton:hover{
     background-color: white;
     color: #D7C8B6;
-}
+    }
 
+.scale:hover{
+    transition: all 1s;
+    transform: scale(1.4);
+}    
 
 .inputContacto{
     width: 300px;
